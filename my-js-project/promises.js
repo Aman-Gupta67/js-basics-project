@@ -1,6 +1,8 @@
 const cart = ['Jeans','Shirt'];
 const promise = createOrder(cart);
 
+//comment
+
 promise.then(function(orderID){
     console.log(orderID);
     return orderID;

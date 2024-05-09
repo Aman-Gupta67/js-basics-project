@@ -16,6 +16,8 @@ let menu = {
     title: "My menu"
   };
 
+  //comment 1
+
 function multiplyNumeric(obj){
     for(let key in obj){
         if(typeof obj[key] == 'number'){
