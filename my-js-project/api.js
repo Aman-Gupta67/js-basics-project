@@ -5,5 +5,6 @@ async function getWeatherDetails(){
     const response = await fetch(apiURL + `&appid=${apiKey}`)
     var data = await response.json();
     console.log(data);
+    //comment
 }
 getWeatherDetails();
